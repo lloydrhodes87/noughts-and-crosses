@@ -36,6 +36,11 @@ h1 {
   flex-flow: column wrap;
 }
 
-
-
-
+.scoreBoard {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  margin: 0 auto;
+  border: 1px solid orange;
+  padding: 2rem;
+}
