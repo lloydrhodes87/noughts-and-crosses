@@ -2,7 +2,7 @@ import React from 'react';
 
 const Player = ({ player, score }) => {
   return (
-    <div>
+    <div className="playerScoreBoard">
       <h3>{player}</h3>
       <p>{score}</p>
     </div>

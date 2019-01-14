@@ -18,10 +18,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Noughts & Crosses</h1>
         <Scoreboard handlePlayAgain={this.handlePlayAgain} player1={player1} player2={player2} winner={winner} />
         <Board getPosition={this.getPosition} board={board} gamOver={gameOver} />
-        <button onClick={this.handleReset}>Reset Scoreboard</button>
+        <button className="reset" onClick={this.handleReset}>Reset Scoreboard</button>
       </div>
     );
   }
