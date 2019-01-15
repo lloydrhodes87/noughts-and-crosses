@@ -71,7 +71,7 @@ class App extends Component {
         return this.state.board[element] === turn;
       }))
     })
-    if (winner.length === 1) {
+    if (winner.length >= 1) {
       let player
       if (turn === "x") {
         player = "player1"
